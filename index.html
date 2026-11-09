@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#1e3a8a">
+    <title>馬來西亞華人歷史銘文遺址數據分析 - Nanyang Data</title>
+    <!-- Chart.js CDN (支援 HTTPS，完美適配 GitHub Pages 與手機瀏覽器) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #2563eb;
+            --secondary: #0d9488;
+            --accent: #d97706;
+            --danger: #dc2626;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            padding: 14px 10px;
+        }
+        @media (min-width: 640px) {
+            body {
+                padding: 24px 20px;
+            }
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* 依據 README 與 01-franke_malaysia_meta.yaml 嚴格要求的來源引用橫幅 */
+        .source-banner {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            color: #ffffff;
+            padding: 16px 18px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .source-banner-top {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        @media (min-width: 640px) {
+            .source-banner-top {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        .source-title {
+            font-weight: 800;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .badge-group {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            color: #ffffff;
+            padding: 3px 10px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .badge:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .source-citation {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            font-size: 0.8rem;
+            line-height: 1.5;
+            opacity: 0.92;
+        }
+        .source-citation a {
+            color: #93c5fd;
+            text-decoration: underline;
+        }
+
+        /* 標題 */
+        .header {
+            text-align: center;
+            margin-bottom: 22px;
+        }
+        .header h1 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+        @media (min-width: 640px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+        .header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            max-width: 740px;
+            margin: 0 auto;
+        }
+
+        /* KPI 數據指標卡 */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 22px;
+        }
+        @media (min-width: 768px) {
+            .kpi-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 16px;
+            }
+        }
+        .kpi-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 12px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+            border-top: 3px solid var(--primary-light);
+        }
+        .kpi-card:nth-child(2) { border-top-color: var(--secondary); }
+        .kpi-card:nth-child(3) { border-top-color: var(--accent); }
+        .kpi-card:nth-child(4) { border-top-color: var(--danger); }
+        .kpi-title {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .kpi-val {
+            font-size: 1.45rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 4px 0;
+        }
+        @media (min-width: 640px) {
+            .kpi-val {
+                font-size: 1.8rem;
+            }
+        }
+        .kpi-desc {
+            font-size: 0.72rem;
+            color: #64748b;
+        }
+
+        /* 圖表卡片 */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        }
+        @media (min-width: 640px) {
+            .card {
+                padding: 22px;
+            }
+        }
+        .card-header {
+            margin-bottom: 14px;
+        }
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .card-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+
+        /* 圖表響應式容器 */
+        .chart-box {
+            position: relative;
+            width: 100%;
+            height: 320px;
+        }
+        @media (min-width: 640px) {
+            .chart-box {
+                height: 360px;
+            }
+        }
+        .chart-box-large {
+            height: 280px;
+        }
+        @media (min-width: 640px) {
+            .chart-box-large {
+                height: 320px;
+            }
+        }
+
+        .chart-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        @media (min-width: 900px) {
+            .chart-row {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* 校正重點分析格 */
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 14px;
+        }
+        @media (min-width: 768px) {
+            .highlight-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        .insight-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--primary-light);
+            border-radius: 8px;
+            padding: 12px 14px;
+        }
+        .insight-card h4 {
+            font-size: 0.92rem;
+            color: var(--primary);
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .insight-card p {
+            font-size: 0.84rem;
+            color: #334155;
+            line-height: 1.5;
+        }
+
+        /* 表格容器 */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-top: 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.84rem;
+            min-width: 540px;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            background: #f1f5f9;
+            color: #1e293b;
+            font-weight: 700;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .bar-pill {
+            display: inline-block;
+            height: 7px;
+            border-radius: 4px;
+            background: var(--primary-light);
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+
+        /* 專門引用依據卡片 */
+        .citation-box {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 10px;
+            padding: 16px;
+            margin-top: 20px;
+            font-size: 0.82rem;
+            color: #1e3a8a;
+            line-height: 1.6;
+        }
+        .citation-box h4 {
+            font-size: 0.92rem;
+            margin-bottom: 6px;
+            color: #1e3a8a;
+        }
+
+        /* 頁尾 */
+        footer {
+            text-align: center;
+            padding: 24px 8px 12px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            margin-top: 20px;
+        }
+        footer a {
+            color: var(--primary-light);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 依據 README.md 與 01-franke_malaysia_meta.yaml 校正之來源聲明 -->
+    <div class="source-banner">
+        <div class="source-banner-top">
+            <div class="source-title">
+                <span>📍</span>
+                <span>資料來源：Nanyang Data（CC BY-SA 4.0）</span>
+            </div>
+            <div class="badge-group">
+                <a class="badge" href="map.html" style="background: #2563eb; color: #ffffff; border-color: #93c5fd; font-weight: 700;">🗺️ 查看原鄉群地理地圖</a>
+                <a class="badge" href="https://nanyang-data.info/" target="_blank" rel="noopener">🌐 Nanyang Data 官方圖層</a>
+                <span class="badge">CC BY-SA 4.0 授權</span>
+            </div>
+        </div>
+        <div class="source-citation">
+            <strong>專案來源：</strong>Chinese sites in Malaysia described by Wolfgang Franke (1988) ｜ 
+            <strong>基礎文獻：</strong>Wolfgang Franke 傅吾康 & Tieh-fan Chen 陳鐵凡 (1982-1987) <i>Chinese Epigraphic Materials in Malaysia</i> (3 vols.) ｜ 
+            <strong>數位化研究團隊：</strong>Kenneth Dean 丁荷生, Marcus Bingenheimer 馬徳偉, Wang Junlin 汪俊霖, Wu Fei 吴菲 (國立新加坡大學 NUS, 2024-06-12)
+        </div>
+    </div>
+
+    <!-- 標題 -->
+    <div class="header">
+        <h1>馬來西亞華人歷史銘文遺址數據分析</h1>
+        <p>依據專案 README 與 Metadata 校正：分析 397 處遺址之點位類型、存續最早銘文年代與地理定標狀態</p>
+    </div>
+
+    <!-- KPI 數據卡片（依據 README 與 Meta 校準） -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-title">文獻收錄總遺址數</div>
+            <div class="kpi-val">397 處</div>
+            <div class="kpi-desc">傅吾康與陳鐵凡全數編號</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">線上成功定標率</div>
+            <div class="kpi-val" style="color: var(--secondary);">314 處</div>
+            <div class="kpi-desc">79.1% (未定標 83 處多為義山)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">移民社會三大支柱</div>
+            <div class="kpi-val" style="color: var(--accent);">91.7%</div>
+            <div class="kpi-desc">寺廟 (41.3%) + 會館 (28.2%) + 義山 (22.2%)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">最早銘文極盛期</div>
+            <div class="kpi-val" style="color: var(--danger);">1850–1949</div>
+            <div class="kpi-desc">共 329 處 (佔全部已知年代 83%)</div>
+        </div>
+    </div>
+
+    <!-- 圖表區 1: 點位類型 與 歷史發展分期 -->
+    <div class="chart-row">
+        <!-- 點位類型長條圖 (水平排列便於手機螢幕閱覽) -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">遺址主要功能類型分佈 (Site Types)</div>
+                <div class="card-subtitle">依據碑銘主體屬性、中文專名與英文描述歸類</div>
+            </div>
+            <div class="chart-box">
+                <canvas id="typeChart"></canvas>
+            </div>
+        </div>
+
+        <!-- 歷史發展分期圖 (校正為 dateISO：最早銘文年代) -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">現存最早銘文年代分佈 (Earliest Inscription)</div>
+                <div class="card-subtitle">依據 dateISO 年代統計（通常反映遺址年齡之重要參考）</div>
+            </div>
+            <div class="chart-box">
+                <canvas id="periodChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 圖表區 2: 1840 年代以降每 10 年建立頻率長條圖 -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">1840 年代–1970 年代 每十年銘文年代分佈圖</div>
+            <div class="card-subtitle">反映晚清海峽殖民、錫礦熱潮、橡膠園崛起與二戰後華人社會發展週期</div>
+        </div>
+        <div class="chart-box chart-box-large">
+            <canvas id="decadeChart"></canvas>
+        </div>
+    </div>
+
+    <!-- 依據 README 與 Metadata 深度校正之核心歷史洞察 -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">依據專案文獻與 Metadata 的校正說明與洞察</div>
+            <div class="card-subtitle">學術嚴謹性校正：年代口徑、未定標遺址成因與南洋華人社會結構</div>
+        </div>
+        
+        <div class="highlight-grid">
+            <div class="insight-card">
+                <h4>📌 1. 年代口徑校正：dateISO 代表「現存最早銘文年代」</h4>
+                <p>
+                    依據 Metadata 說明，資料庫中的 <code>dateISO</code> 是該遺址<strong>「所留存之最早銘文器物年份 (Year of the earliest inscription)」</strong>。
+                    在碑銘學上，此年代通常作為推估該遺址歷史年齡的關鍵指標，但並不必然等同於建廟或立案的準確年份（例如可能曾遭祝融重建，僅留存清末牌匾）。
+                    統計顯示，最早銘文中位數為 <strong>1904 年</strong>，且高達 <strong>83.0%</strong> 落在 <strong>1850 至 1949 年</strong> 之間。
+                </p>
+            </div>
+            <div class="insight-card" style="border-left-color: var(--secondary);">
+                <h4>📌 2. 空間定標校正：為何有 83 處（20.9%）未定位？</h4>
+                <p>
+                    Metadata 特別指出：<i>「Especially the many grave sites listed by Franke and Chen are often impossible to find with the methods at our disposal.」</i>
+                    交叉分析驗證：在 83 處未標記經緯度的點位中，超過 <strong>54.2%（45 處）均為墓地、義山或古塚</strong>。
+                    這些古墓因歷史變遷、市區拓建、雜草掩埋或政府遷葬，透過現代 Google Maps 與線上工具已難以直接實地尋獲。
+                </p>
+            </div>
+            <div class="insight-card" style="border-left-color: var(--accent);">
+                <h4>📌 3. 移民社會三大支柱：神廟 (41.3%)、會館 (28.2%)、義山 (22.2%)</h4>
+                <p>
+                    397 處遺址中，宗教神廟、血緣/地緣會館與義山公塚三大類佔據了 <strong>91.7%</strong> 的絕對壓倒性比例。
+                    這印證了南洋華人社會的拓荒模式：抵達新埠頭先立神廟求平安（神緣）；聚集同籍或同姓設立會館宗祠互相扶持（地緣與血緣）；並購置公塚安葬客死異鄉的同胞（生死之事）。
+                </p>
+            </div>
+            <div class="insight-card" style="border-left-color: #6366f1;">
+                <h4>📌 4. 最早歷史實物：17 世紀馬六甲三寶山明代古墓</h4>
+                <p>
+                    全資料集最古老之兩件銘文記錄分別為 <strong>1622 年</strong>（明熹宗天啟二年）與 <strong>1678 年</strong>，均座落於馬六甲三寶山（Bukit Cina），為馬來西亞現存最久遠之華人定居與喪葬實物紀錄。
+                </p>
+            </div>
+        </div>
+
+        <!-- 類型詳細統計表 (支援手機水平滑動) -->
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>遺址類型</th>
+                        <th>總筆數</th>
+                        <th>比例</th>
+                        <th>已成功定標</th>
+                        <th>未定標數 (多為墓地)</th>
+                        <th>代表性案例</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>宗教寺廟/宮觀</strong></td>
+                        <td>167 處</td>
+                        <td>42.1% <span class="bar-pill" style="width: 48px;"></span></td>
+                        <td>153 處</td>
+                        <td>14 處</td>
+                        <td>仙四師爺宮、天后宮、觀音亭、大伯公廟</td>
+                    </tr>
+                    <tr>
+                        <td><strong>會館/宗祠/社團</strong></td>
+                        <td>111 處</td>
+                        <td>28.0% <span class="bar-pill" style="width: 33px; background: var(--secondary);"></span></td>
+                        <td>93 處</td>
+                        <td>18 處</td>
+                        <td>廣東會館、潮州會館、陳氏書院、理髮行公會</td>
+                    </tr>
+                    <tr>
+                        <td><strong>墓地/義山/公塚</strong></td>
+                        <td>87 處</td>
+                        <td>21.9% <span class="bar-pill" style="width: 26px; background: #64748b;"></span></td>
+                        <td>43 處</td>
+                        <td><strong style="color: var(--danger);">44 處</strong> (佔未定標過半)</td>
+                        <td>吉隆坡廣東義山、福建義山、華僑公塚、古墓</td>
+                    </tr>
+                    <tr>
+                        <td><strong>紀念碑/紀念地</strong></td>
+                        <td>14 處</td>
+                        <td>3.5% <span class="bar-pill" style="width: 8px; background: var(--accent);"></span></td>
+                        <td>11 處</td>
+                        <td>3 處</td>
+                        <td>二戰抗日殉難烈士紀念碑、殉難公墓</td>
+                    </tr>
+                    <tr>
+                        <td><strong>學校/文教機構</strong></td>
+                        <td>11 處</td>
+                        <td>2.8% <span class="bar-pill" style="width: 6px; background: #06b6d4;"></span></td>
+                        <td>9 處</td>
+                        <td>2 處</td>
+                        <td>寬柔學校、大同學校、培群學校</td>
+                    </tr>
+                    <tr>
+                        <td><strong>醫療/慈善設施</strong></td>
+                        <td>4 處</td>
+                        <td>1.0% <span class="bar-pill" style="width: 3px; background: #ec4899;"></span></td>
+                        <td>4 處</td>
+                        <td>0 處</td>
+                        <td>雪蘭莪同善醫院、茶陽會館回春醫社</td>
+                    </tr>
+                    <tr>
+                        <td><strong>其他/故居設施</strong></td>
+                        <td>3 處</td>
+                        <td>0.8% <span class="bar-pill" style="width: 3px; background: #94a3b8;"></span></td>
+                        <td>1 處</td>
+                        <td>2 處</td>
+                        <td>永春陳宅古居、熱水湖公共浴室</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 規範引用框 (依照 README 與 Metadata) -->
+        <div class="citation-box">
+            <h4>📖 規範學術引用格式 (Recommended Citation)</h4>
+            <p>
+                Franke, Wolfgang, and Tieh-fan Chen (eds.). 1982–87. <i>Chinese Epigraphic Materials in Malaysia</i>. Kuala Lumpur: University of Malaya Press. 3 vols.<br>
+                Digital layer by Kenneth Dean, Marcus Bingenheimer, Wang Junlin, and Wu Fei (2024). <i>Chinese sites in Malaysia described by Wolfgang Franke (1988)</i>. Nanyang Sites GIS Data. Available at: <a href="https://nanyang-data.info/" target="_blank" rel="noopener">https://nanyang-data.info/</a> (Licensed under CC BY-SA 4.0).
+            </p>
+        </div>
+    </div>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>本視覺化報表由 Python 自動統計校正生成 ｜ <strong>資料來源：<a href="https://nanyang-data.info/" target="_blank" rel="noopener">Nanyang Data</a>（CC BY-SA 4.0）</strong></p>
+        <p style="margin-top: 4px; font-size: 0.75rem;">
+            專案文獻：Wolfgang Franke & Chen Tieh-fan (1982-1987) <i>Chinese Epigraphic Materials in Malaysia</i> (3 Vols.)
+        </p>
+    </footer>
+</div>
+
+<!-- Chart.js 繪圖邏輯 (手機觸控相容設定) -->
+<script>
+    const isMobile = window.innerWidth < 600;
+
+    // 1. 類型長條圖 (水平長條圖便於手機閱讀標籤)
+    const typeCtx = document.getElementById('typeChart').getContext('2d');
+    new Chart(typeCtx, {
+        type: 'bar',
+        data: {
+            labels: ["宗教寺廟/宮觀 (Temples & Shrines)", "會館/宗祠/社團 (Clans & Guilds)", "墓地/義山 (Cemetery & Graves)", "紀念碑/紀念地 (Memorial)", "學校/文教機構 (School & Education)", "醫療/慈善設施 (Hospital & Charity)", "其他/故居設施 (Others & Residence)"],
+            datasets: [{
+                label: '遺址數量',
+                data: [167, 111, 87, 14, 11, 4, 3],
+                backgroundColor: [
+                    '#2563eb', // 寺廟
+                    '#0d9488', // 會館
+                    '#64748b', // 義山
+                    '#d97706', // 紀念碑
+                    '#0284c7', // 學校
+                    '#db2777', // 醫療
+                    '#94a3b8'  // 其他
+                ],
+                borderRadius: 5
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            const pct = ((ctx.raw / 397) * 100).toFixed(1);
+                            return ` ${ctx.raw} 處 (${pct}%)`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    grid: { color: '#f1f5f9' },
+                    ticks: { font: { size: isMobile ? 10 : 12 } }
+                },
+                y: {
+                    ticks: { font: { size: isMobile ? 11 : 13, weight: '500' } }
+                }
+            }
+        }
+    });
+
+    // 2. 時期長條圖 (最早銘文年代 dateISO)
+    const periodCtx = document.getElementById('periodChart').getContext('2d');
+    new Chart(periodCtx, {
+        type: 'bar',
+        data: {
+            labels: ["1600–1699 (明清交替期)", "1700–1799 (18世紀前期)", "1800–1839 (開拓海峽期)", "1840–1859 (殖民市鎮起步)", "1860–1879 (錫礦起飛期)", "1880–1899 (晚清移民潮極盛)", "1900–1919 (橡膠與市鎮擴張)", "1920–1939 (戰間期發展)", "1940–1959 (二戰與戰後初期)", "1960 以後 (現代)"],
+            datasets: [{
+                label: '最早銘文紀錄數',
+                data: [2, 7, 12, 21, 45, 94, 87, 63, 56, 9],
+                backgroundColor: interval_counts.map(v => v >= 80 ? '#dc2626' : (v >= 40 ? '#ea580c' : '#3b82f6')),
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            const pct = ((ctx.raw / 396) * 100).toFixed(1);
+                            return ` 銘文數: ${ctx.raw} 處 (${pct}%)`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: !isMobile, text: '最早銘文數 (處)' },
+                    ticks: { font: { size: isMobile ? 10 : 12 } }
+                },
+                x: {
+                    ticks: {
+                        font: { size: isMobile ? 9 : 11 },
+                        maxRotation: 45,
+                        minRotation: 30
+                    }
+                }
+            }
+        }
+    });
+
+    // 3. 每十年頻率長條圖 (1840-1970s)
+    const decadeCtx = document.getElementById('decadeChart').getContext('2d');
+    new Chart(decadeCtx, {
+        type: 'bar',
+        data: {
+            labels: ["1840s", "1850s", "1860s", "1870s", "1880s", "1890s", "1900s", "1910s", "1920s", "1930s", "1940s", "1950s", "1960s", "1970s"],
+            datasets: [{
+                label: '該年代最早銘文數',
+                data: [9, 12, 28, 17, 40, 54, 42, 45, 36, 27, 28, 28, 8, 1],
+                backgroundColor: '#2563eb',
+                hoverBackgroundColor: '#1d4ed8',
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            return ` 最早銘文: ${ctx.raw} 處`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: !isMobile, text: '銘文數量 (處)' }
+                },
+                x: {
+                    ticks: { font: { size: isMobile ? 10 : 12 } }
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

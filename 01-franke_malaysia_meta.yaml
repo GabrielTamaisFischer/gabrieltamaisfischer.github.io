@@ -1,0 +1,21 @@
+projectName: Chinese sites in Malaysia described by Wolfgang Franke (1988)
+
+description: |
+  The eminent sinologist Wolfgang Franke (1912-2007) has published three collections of Chinese Epigraphic Materials in Southeast Asia (Malaysia, Indonesia, Thailand). In 2024 Kenneth Dean, Marcus Bingenheimer and a team of graduate students (led by Wang Junlin and Wu Fei) at the National University of Singapore identified and, where possible, geo-referenced the still extant sites that Franke visited for his survey.
+
+  This nanyang layer is based on:
+  *Chinese epigraphic materials in Malaysia* collected, annotated, and edited by Wolfgang Franke and Tieh-fan Chen 陳鐵凡 (eds.). 1982-87. Chinese Epigraphic Materials in Malaysia. Kuala Lumpur: University of Malaysia Press. 3 vols (Vol. 1: 1982, Vol. 2: 1985, Vol. 3: 1987).
+
+  This layer lists all 397 sites listed by Franke and Chen and assigns nanyang site IDs. We were able to geo-reference only 314 of these with the help of online tools. Especially the many grave sites listed by Franke and Chen are often impossible to find with the methods at our disposal.
+
+  Each entry includes a current address (where known) and the date of the earliest inscription (according to Franke and Chen) which is usually an indication of the age of the site.
+
+date: 2024-06-12
+
+contact: m.bingenheimer@gmail.com
+
+credits: Wolfgang Franke 傅吾康, Tieh-fan Chen 陳鐵凡, Kenneth Dean 丁荷生, Marcus Bingenheimer 馬徳偉, Wang Junlin 汪俊霖, and Wu Fei 吴菲
+
+license:
+  name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/

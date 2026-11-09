@@ -1,0 +1,2453 @@
+# nanyangSiteID: ID for Franke site in Malaysia (fm) collected by Wolfgang Franke (wf)
+# FrankeNo: ID of the site in Franke, Wolfgang, Tieh-fan Chen (eds.). 1982-87. Chinese Epigraphic Materials in Malaysia. Kuala Lumpur: University of Malaysia Press. 3 vols (Vol. 1: 1982, Vol. 2: 1985, Vol. 3: 1987).
+# dateISO: year of the earliest inscription at the site according to Franke
+# dateRef: Franke ID of the inscribed object carrying the earliest date
+# address: current address of the sites according to Google Maps and similar tools
+# notes: Notes (where applicable).
+- nanyangSiteId: fm-wf-001
+  FrankeNo: A1.1
+  dateISO: '1881'
+  dateRef: A1.1.1, A1.1.2
+  address: 113A, Jalan Tun H S Lee, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-002
+  FrankeNo: A1.2
+  dateISO: '1888'
+  dateRef: A1.2.1
+  address: Jalan Pasar, Pudu, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-003
+  FrankeNo: A1.3
+  dateISO: '1889'
+  dateRef: A1.3.1
+  address: Jln Ampang, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala
+    Lumpur, Malaysia
+  notes: 曾用名Kuan-yin fo-t'ang觀音佛堂。
+- nanyangSiteId: fm-wf-004
+  FrankeNo: A1.4
+  dateISO: '1889'
+  dateRef: A1.4.1
+  address: 77, Jalan Besar Ampang, Pekan Ampang, 68000 Ampang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-005
+  FrankeNo: A1.5
+  dateISO: '1893'
+  dateRef: A1.5.1, A1.5.2
+  address: 3607, Jalan Jinjang Murni 12, Jinjang Utara, 52000 Kuala Lumpur, Wilayah
+    Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-006
+  FrankeNo: A1.6
+  dateISO: '1898'
+  dateRef: A1.6.1
+  address: 390, Jalan Pahang, Setapak, 53000 Kuala Lumpur, Wilayah Persekutuan Kuala
+    Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-007
+  FrankeNo: A1.7
+  dateISO: '1901'
+  dateRef: A1.7.1
+  address: 16, Jln Sungai Besi, Pudu, 57100 Kuala Lumpur, Wilayah Persekutuan Kuala
+    Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-008
+  FrankeNo: A1.8
+  dateISO: '1902'
+  dateRef: A1.8.1
+  address: Jalan Besar, Kampung Baru Seri Kembangan, 43300 Seri Kembangan, Selangor,
+    Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-009
+  FrankeNo: A1.9
+  dateISO: '1903'
+  dateRef: A1.9.1
+  address: ''
+  notes: 曾用名Ling-shan ssu靈山寺, Lien-shan t'ang蓮善堂。
+- nanyangSiteId: fm-wf-010
+  FrankeNo: A1.10
+  dateISO: '1909'
+  dateRef: A1.10.1
+  address: 649, Lorong Ampang Ulu, Kampung Berembang, 55000 Kuala Lumpur, Wilayah
+    Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-011
+  FrankeNo: A1.11
+  dateISO: '1917'
+  dateRef: A1.11.1
+  address: 78, Jalan Besar Ampang, Pekan Ampang, 68000 Ampang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-012
+  FrankeNo: A1.12
+  dateISO: '1906'
+  dateRef: A1.12 (p88)
+  address: 314, Main Street, Kampung Melayu Ampang, 68000 Ampang, Selangor
+  notes: 現存最早文物A1.12.1 (1918)。
+- nanyangSiteId: fm-wf-013
+  FrankeNo: A1.13
+  dateISO: '1919'
+  dateRef: A1.13.1
+  address: Jalan Senjolong, Taman Pertama, 55300 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-014
+  FrankeNo: A1.14
+  dateISO: '1927'
+  dateRef: A1.14.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-015
+  FrankeNo: A1.15
+  dateISO: '1935'
+  dateRef: A1.15.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-016
+  FrankeNo: A1.16
+  dateISO: '1936'
+  dateRef: A1.16.1
+  address: Jalan Kerayong, Wilayah Persekutuan50460 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-017
+  FrankeNo: A1.17
+  dateISO: 1920s
+  dateRef: A1.17 (p99)
+  address: Wilayah Persekutuan Kuala Lumpur, Kuala Lumpur, Jalan Sungai Besi, Batu
+  notes: 現存最早文物A1.17.1 (1938), A1.17.2 (1938)。
+- nanyangSiteId: fm-wf-018
+  FrankeNo: A1.18
+  dateISO: '1882'
+  dateRef: A1.18.1
+  address: P1, Jalan Merdeka, Kampung Baru Ampang, 68000 Ampang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-019
+  FrankeNo: A1.19
+  dateISO: '1891'
+  dateRef: A1.19.1
+  address: Jalan Kerayong, Pengkalan Tentera Udara Diraja Malaysia, 50460 Kuala Lumpur,
+    Wilayah Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-020
+  FrankeNo: A1.20
+  dateISO: '1918'
+  dateRef: A1.20.1
+  address: Jalan Kerayong, Bukit Seputeh, 50460 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-021
+  FrankeNo: A1.21
+  dateISO: '1890'
+  dateRef: A1.21.1
+  address: Jalan Kerayong, Bukit Seputeh, 50460 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-022
+  FrankeNo: A1.22
+  dateISO: '1886'
+  dateRef: A1.22.1
+  address: 168, Jalan Tun H S Lee, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: 廣肇會館現掛牌於關帝廟，Franke所記原址當在Jalan Tun H.S. Lee （即書中所謂High street，華文名諧街）147、149號（3.1441905,
+    101.696607）。
+- nanyangSiteId: fm-wf-023
+  FrankeNo: A1.23
+  dateISO: '1875'
+  dateRef: A1.23.2
+  address: Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala
+    Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-024
+  FrankeNo: A1.24
+  dateISO: '1889'
+  dateRef: A1.24 (p115)
+  address: 65, Persiaran Endah, Off, Jalan Syed Putra, 50460 Wilayah Persekutuan,
+    Federal Territory of Kuala Lumpur, Malaysia
+  notes: 現存最早文物A1.24.1 (1909)。瓊州會館現掛牌於天后宮，Franke所記原址當在Lorong Sultan（即書中所謂Sultan Street）83號（3.144099,
+    101.698846）。
+- nanyangSiteId: fm-wf-025
+  FrankeNo: A1.25
+  dateISO: '1927'
+  dateRef: A1.25.2
+  address: 23-31, Jln Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-026
+  FrankeNo: A1.26
+  dateISO: '1932'
+  dateRef: A1.26.1
+  address: Bangunan Selangor Hokkien Association, 41-c, Jalan Hang Lekiu, City Centre,
+    50100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-027
+  FrankeNo: A1.27
+  dateISO: '1891'
+  dateRef: A1.27.2
+  address: 1, Level 13A, Menara Teo Chew No, 1, Jalan Lumut, Pekeliling, 50400 Kuala
+    Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-028
+  FrankeNo: A1.28
+  dateISO: '1929'
+  dateRef: A1.28 (p125)
+  address: 5th Floor, Wisma Ann Koai, 67, Jln Ampang, Kuala Lumpur, 50450 Kuala Lumpur,
+    Federal Territory of Kuala Lumpur, Malaysia
+  notes: 現存最早文物A1.26.1 (1938)。
+- nanyangSiteId: fm-wf-029
+  FrankeNo: A1.29
+  dateISO: '1951'
+  dateRef: A1.29.1
+  address: 2nd Floor, 8, Jalan Panggong, Kuala Lumpur City Centre, 50000 Kuala Lumpur,
+    Federal Territory of Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-030
+  FrankeNo: A1.30
+  dateISO: '1951'
+  dateRef: A1.30 (p127)
+  address: 13, Jln Tong Shin, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: 現存最早文物A1.30.1 (1957)。
+- nanyangSiteId: fm-wf-031
+  FrankeNo: A1.31
+  dateISO: '1908'
+  dateRef: A1.31.1, A1.31.2
+  address: 172, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan
+    Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-032
+  FrankeNo: A1.32
+  dateISO: '1914'
+  dateRef: A1.32.1
+  address: Salak South, 57100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-033
+  FrankeNo: A1.33
+  dateISO: '1895'
+  dateRef: A1.33.1, A1.33.2
+  address: 182, Jalan Jambu Arang 2, Jinjang Selatan, 52000 Kuala Lumpur, Wilayah
+    Persekutuan Kuala Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-034
+  FrankeNo: A1.34
+  dateISO: '1911'
+  dateRef: A1.34.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-035
+  FrankeNo: A1.35
+  dateISO: '1937'
+  dateRef: A1.35.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-036
+  FrankeNo: A1.36
+  dateISO: '1960'
+  dateRef: A1.36 (p143)
+  address: 102, Jln Pudu, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala
+    Lumpur, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-037
+  FrankeNo: B1.1
+  dateISO: 1860s
+  dateRef: B1.1 (p145)
+  address: Lot 653, Jalan Trus, Bandar Johor Bahru, 80000 Johor Bahru, Johor, Malaysia
+  notes: 現存最早文物B1.1.1 (1870)。
+- nanyangSiteId: fm-wf-038
+  FrankeNo: B1.2
+  dateISO: '1913'
+  dateRef: B1.2.1
+  address: 1, Jalan Ulu Air Molek, Yahya Awal, 80300 Johor Bahru, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-039
+  FrankeNo: B1.3
+  dateISO: '1947'
+  dateRef: B1.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-040
+  FrankeNo: B1.4
+  dateISO: '1913'
+  dateRef: B1.4 (p152)
+  address: 91, Jalan Kebun Teh, Taman Kebun Teh, 80250 Johor Bahru, Johor, Malaysia
+  notes: 現存最早文物B1.4.1 (1917)。
+- nanyangSiteId: fm-wf-041
+  FrankeNo: B2.1
+  dateISO: '1924'
+  dateRef: B2.1.1
+  address: 13, Jalan Murai, Kampung Pegawai, 83000 Batu Pahat, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-042
+  FrankeNo: B2.2
+  dateISO: '1906'
+  dateRef: B2.2.2
+  address: Off, Jalan Tanjong Laboh, 83000 Batu Pahat, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-043
+  FrankeNo: B2.3
+  dateISO: '1915'
+  dateRef: B2.3 (p159)
+  address: Taman Sri Saga, 83000 Batu Pahat, Johor, Malaysia
+  notes: 現存最早文物B2.2.1 (1927)。
+- nanyangSiteId: fm-wf-044
+  FrankeNo: B2.4
+  dateISO: '1932'
+  dateRef: B2.4.1
+  address: 3, Jalan Fatimah, Kampung Sateh, 83000 Batu Pahat, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-045
+  FrankeNo: B2.5
+  dateISO: 1917, 1926
+  dateRef: B2.5 (p164)
+  address: 24A&B.Jalan Mohd Akil.Batu Pahat., Johor, Malaysia
+  notes: 現存最早文物B2.5.1 (1932)。
+- nanyangSiteId: fm-wf-046
+  FrankeNo: B3.1
+  dateISO: '1946'
+  dateRef: B3.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-047
+  FrankeNo: B4.1
+  dateISO: '1945'
+  dateRef: B4.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-048
+  FrankeNo: B5.1
+  dateISO: 1917/18
+  dateRef: B5.1.1
+  address: 81900 Kota Tinggi, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-049
+  FrankeNo: B5.2
+  dateISO: '1946'
+  dateRef: B5.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-050
+  FrankeNo: B5.3
+  dateISO: '1947'
+  dateRef: B5.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-051
+  FrankeNo: B6.1
+  dateISO: '1926'
+  dateRef: B6.1.1
+  address: Mersing Kechil, 86800 Mersing, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-052
+  FrankeNo: B7.1
+  dateISO: '1895'
+  dateRef: B7.1.1
+  address: 104, Jalan Maharani, Taman Sri Emas, 84000 Muar, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-053
+  FrankeNo: B7.2
+  dateISO: '1908'
+  dateRef: B7.2.1
+  address: Jalan Maharani, Taman Sri Emas, 84000 Muar, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-054
+  FrankeNo: B8.1
+  dateISO: '1956'
+  dateRef: B8.1.1, B8.1.2
+  address: Kampung Duku, 82000 Pontian District, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-055
+  FrankeNo: B8.2
+  dateISO: '1946'
+  dateRef: B8.2.1
+  address: Jalan Kukup, Pontian Kecil, 82000 Pontian, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-056
+  FrankeNo: B9.1
+  dateISO: '1940'
+  dateRef: B9.1 (p180)
+  address: 1, Jalan Genuang, Kampung Abdullah, 85000 Segamat, Johor, Malaysia
+  notes: 現存最早文物B9.1.1 (1960)。
+- nanyangSiteId: fm-wf-057
+  FrankeNo: B10.1
+  dateISO: '1918'
+  dateRef: B10.1.1
+  address: Chinese Temple, Kampung Bahru, 83200 Senggarang, Johor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-058
+  FrankeNo: C1.1
+  dateISO: '1928'
+  dateRef: C1.1.1
+  address: Jalan Tok Pekong, Kampung Telok05400 Alor Setar, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-059
+  FrankeNo: C1.2
+  dateISO: '1944'
+  dateRef: C1.2.1
+  address: 87, Jalan Masjid, Taman Pesisiran Tanjung Chali, 05050 Alor Setar, Kedah,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-060
+  FrankeNo: C1.3
+  dateISO: '1948'
+  dateRef: C1.3.1
+  address: ''
+  notes: 原文為籃啅公廟然而神案刻文應為藍啅公。
+- nanyangSiteId: fm-wf-061
+  FrankeNo: C1.4
+  dateISO: '1853'
+  dateRef: C1.4.1
+  address: 4010, Jln Tun Razak, Taman Pknk, 05200 Alor Setar, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-062
+  FrankeNo: C1.5
+  dateISO: '1852'
+  dateRef: C1.5 (p191)
+  address: 9-35, Jalan Tunku Yaakub, Taman Pesisiran Tanjung Chali, 05000 Alor Setar,
+    Kedah, Malaysia
+  notes: 現存最早文物C1.5.1 (1911)。
+- nanyangSiteId: fm-wf-063
+  FrankeNo: C1.6
+  dateISO: '1954'
+  dateRef: C1.6.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-064
+  FrankeNo: C1.7
+  dateISO: '1963'
+  dateRef: C1.7.1
+  address: 05000, 44-53, Jalan Penjara Lama, Bandar Alor Setar, 05000 Alor Setar,
+    Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-065
+  FrankeNo: C2.1
+  dateISO: '1940'
+  dateRef: C2.1.1
+  address: 26, Jln Ayer Puteh, Kampung Tasek Cempedak, 09000 Kulim, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-066
+  FrankeNo: C3.1
+  dateISO: '1937'
+  dateRef: C3.1.1
+  address: 30, 176, Kampung Pering, 06100 Kodiang, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-067
+  FrankeNo: C4.1
+  dateISO: '1910'
+  dateRef: C4.1.1
+  address: Persiaran Putera, Kuah, 07000 Langkawi, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-068
+  FrankeNo: C4.2
+  dateISO: '1918'
+  dateRef: C4.2.1
+  address: 07000 Langkawi, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-069
+  FrankeNo: C4.3
+  dateISO: '1920'
+  dateRef: C4.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-070
+  FrankeNo: C4.4
+  dateISO: '1910'
+  dateRef: C4.4 (p201)
+  address: ''
+  notes: 現存最早文物C4.4.1 (1926)。
+- nanyangSiteId: fm-wf-071
+  FrankeNo: C5.1
+  dateISO: '1906'
+  dateRef: C5.1.1
+  address: 430. ,08000, Kampung Pekan Lama, 08000 Sungai Petani, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-072
+  FrankeNo: C5.2
+  dateISO: '1909'
+  dateRef: C5.2.1
+  address: 42 A, Jalan Tiga, Kampung Sungai Tongka, 08000 Sungai Petani, Kedah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-073
+  FrankeNo: D1.1
+  dateISO: 1751-1800
+  dateRef: D1.1 (p204)
+  address: Jalan Kampung Cina, Bandar Kota Bharu, 15300 Kota Bharu, Kelantan, Malaysia
+  notes: 現存最早文物D1.1.1 (1868)。
+- nanyangSiteId: fm-wf-074
+  FrankeNo: D1.2
+  dateISO: '1727'
+  dateRef: D1.2 (p206)
+  address: 'Malaysia Kelantan, Ketereh, Kampung Tok Kong, Lot 1439 postcode: 16450'
+  notes: 現存最早文物D1.2.1 (1871)。
+- nanyangSiteId: fm-wf-075
+  FrankeNo: D1.3
+  dateISO: '1879'
+  dateRef: D1.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-076
+  FrankeNo: D1.4
+  dateISO: '1945'
+  dateRef: D1.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-077
+  FrankeNo: D1.5
+  dateISO: '1843'
+  dateRef: D1.5.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-078
+  FrankeNo: D2.1
+  dateISO: '1865'
+  dateRef: D2.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-079
+  FrankeNo: D2.2
+  dateISO: '1869'
+  dateRef: D2.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-080
+  FrankeNo: E1.1
+  dateISO: '1673'
+  dateRef: E1.1 (p223)
+  address: 25, Jalan Tokong, Kampung Dua, 75200 Melaka, Malaysia
+  notes: 現存最早文物E1.1.1 (1685)。
+- nanyangSiteId: fm-wf-081
+  FrankeNo: E1.2
+  dateISO: '1795'
+  dateRef: E1.2.1
+  address: Jalan Puteri Hang Li Poh, Bukit Cina, 75100 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-082
+  FrankeNo: E1.3
+  dateISO: '1841'
+  dateRef: E1.3.1
+  address: Jln. Bunga Raya, 75100 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-083
+  FrankeNo: E1.4
+  dateISO: '1837'
+  dateRef: E1.4.1
+  address: Jln Parameswara, 75000 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-084
+  FrankeNo: E1.5
+  dateISO: '1847'
+  dateRef: E1.5.1/E1.5.2
+  address: Jalan Semabok, Kampung Ujong, 75050 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-085
+  FrankeNo: E1.6
+  dateISO: 1852/53
+  dateRef: E1.6.1
+  address: 1964, 144, 77200 Bemban, Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-086
+  FrankeNo: E1.7
+  dateISO: 1863/64
+  dateRef: E1.7.3
+  address: 2½, 75200, Malacca
+  notes: ''
+- nanyangSiteId: fm-wf-087
+  FrankeNo: E1.8
+  dateISO: '1857'
+  dateRef: E1.8.1
+  address: 41, Jalan Tukang Besi, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-088
+  FrankeNo: E1.9
+  dateISO: '1884'
+  dateRef: E1.9.1/E1.9.2
+  address: 118, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-089
+  FrankeNo: E1.10
+  dateISO: '1888'
+  dateRef: E1.10.1
+  address: Taman Cheng Perdana, 75250 Malacca, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-090
+  FrankeNo: E1.11
+  dateISO: '1890'
+  dateRef: E1.11.1
+  address: 13, Jalan Kampung Pantai, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-091
+  FrankeNo: E1.12
+  dateISO: 1894/95
+  dateRef: E1.12.1/E1.12.2/E1.12.3/E1.12.4
+  address: 133, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-092
+  FrankeNo: E1.13
+  dateISO: '1902'
+  dateRef: E1.13.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-093
+  FrankeNo: E1.14
+  dateISO: '1904'
+  dateRef: E1.14.1
+  address: Jalan Portugis, Kampung Satu, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-094
+  FrankeNo: E1.15
+  dateISO: '1910'
+  dateRef: E1.15.1, E1.15.2
+  address: Kampung Sungai Putat, 75350 Malacca, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-095
+  FrankeNo: E1.16
+  dateISO: '1921'
+  dateRef: E1.16.1
+  address: Jalan Laksamana 4, Kampung Tiga, 75200 Melaka
+  notes: ''
+- nanyangSiteId: fm-wf-096
+  FrankeNo: E1.17
+  dateISO: '1959'
+  dateRef: E1.17.1
+  address: 139, Jalan Tun Tan Cheng Lock, Taman Kota Laksamana, 75200 Melaka
+  notes: ''
+- nanyangSiteId: fm-wf-097
+  FrankeNo: E1.18
+  dateISO: '1622'
+  dateRef: E1.18.1
+  address: 26-A, Bukit China Road, 75100, Melaka, Melaka, Kampung Bukit China, 75100
+    Malacca, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-098
+  FrankeNo: E1.19
+  dateISO: '1824'
+  dateRef: E1.19.1
+  address: Jalan Ayer Molek / Jasin, Kampung Pengkalan Minyak, 75460 Ayer Molek, Melaka,
+    Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-099
+  FrankeNo: E1.20
+  dateISO: '1920'
+  dateRef: E1.20.1, E1.20.2, E1.20.3, E1.20.4, E1.20.5
+  address: Batu 3 3/4, Jalan Malim, 75260 Melaka, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-100
+  FrankeNo: E1.21
+  dateISO: '1844'
+  dateRef: E1.21.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-101
+  FrankeNo: E1.22
+  dateISO: '1947'
+  dateRef: E1.22.1
+  address: 165, Jalan Temenggong, Kampung Bukit China, 75000 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-102
+  FrankeNo: E1.23
+  dateISO: '1843'
+  dateRef: E1.23.1
+  address: 23, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-103
+  FrankeNo: E1.24
+  dateISO: '1869'
+  dateRef: E1.24 (p398)
+  address: 115, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: 現存最早文物E1.24.1 (1871)。
+- nanyangSiteId: fm-wf-104
+  FrankeNo: E1.25
+  dateISO: '1875'
+  dateRef: E1.25.1
+  address: 122, Jalan Tun Tan Cheng Lock, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-105
+  FrankeNo: E1.26
+  dateISO: '1894'
+  dateRef: E1.26.1
+  address: 49, Jalan Taming Sari, Kampung Mata Kuching, 75400 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-106
+  FrankeNo: E1.27
+  dateISO: '1916'
+  dateRef: E1.27.1
+  address: 97, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-107
+  FrankeNo: E1.28
+  dateISO: 1916/17
+  dateRef: E1.28.1
+  address: Lorong Laksamana Cheng Ho 2, 75000 Melaka, Malaysia
+  notes: 曾用名Mei-chou chung-chi kung-ssu梅州衆記公司, Ying-ho kung-ssu應和公司。
+- nanyangSiteId: fm-wf-108
+  FrankeNo: E1.29
+  dateISO: '1810'
+  dateRef: E1.29 (p418)
+  address: 89, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: 現存最早文物E1.29.1 (1917)。
+- nanyangSiteId: fm-wf-109
+  FrankeNo: E1.30
+  dateISO: '1891'
+  dateRef: E1.30 (p423)
+  address: 22, Jalan Tokong, Kampung Dua, 75200 Melaka, Malaysia
+  notes: 現存最早文物E1.30.1 (1952)。
+- nanyangSiteId: fm-wf-110
+  FrankeNo: E1.31
+  dateISO: '1839'
+  dateRef: E1.31.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-111
+  FrankeNo: E1.32
+  dateISO: '1847'
+  dateRef: E1.32.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-112
+  FrankeNo: E1.33
+  dateISO: '1844'
+  dateRef: E1.33.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-113
+  FrankeNo: E1.34
+  dateISO: '1875'
+  dateRef: E1.34.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-114
+  FrankeNo: E1.35
+  dateISO: '1917'
+  dateRef: E1.35.1
+  address: 108, Jalan Hang Jebat, 75200 Melaka
+  notes: ''
+- nanyangSiteId: fm-wf-115
+  FrankeNo: E1.36
+  dateISO: '1961'
+  dateRef: E1.36.1
+  address: 29, Jalan Hang Jebat, 75200 Melaka, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-116
+  FrankeNo: E1.37
+  dateISO: '1862'
+  dateRef: E1.37.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-117
+  FrankeNo: E2.1
+  dateISO: '1884'
+  dateRef: E2.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-118
+  FrankeNo: E3.1
+  dateISO: '1919'
+  dateRef: E3.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-119
+  FrankeNo: F1.1
+  dateISO: '1861'
+  dateRef: F1.1.1
+  address: Bukit Rasah, 70300 Seremban, Negeri Sembilan, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-120
+  FrankeNo: F1.2
+  dateISO: 1863/4
+  dateRef: F1.2.1
+  address: Jalan Bukit Termiang 1, 70200 Seremban, Negeri Sembilan, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-121
+  FrankeNo: F1.3
+  dateISO: '1891'
+  dateRef: F1.3.1/F1.3.2
+  address: Jalan Kapitan Tam Yeong, Taman Sim, 70000 Seremban, Negeri Sembilan, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-122
+  FrankeNo: F1.4
+  dateISO: '1907'
+  dateRef: F1.4 (p448)
+  address: Seremban, 70200 Seremban, Negeri Sembilan, Malaysia
+  notes: 現存最早文物F1.4.1 (1911)。
+- nanyangSiteId: fm-wf-123
+  FrankeNo: F1.5
+  dateISO: '1928'
+  dateRef: F1.5.1/F1.5.2
+  address: Jalan Bukit Termiang 1, Taman Bukit Temiang, 70200 Seremban, Negeri Sembilan,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-124
+  FrankeNo: F1.6
+  dateISO: 1890/1910
+  dateRef: F1.6.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-125
+  FrankeNo: F1.7
+  dateISO: '1871'
+  dateRef: F1.7 (p457)
+  address: 41, Jalan Kapitan Tam Yeong, Taman Sim, 70000 Seremban, Negeri Sembilan,
+    Malaysia
+  notes: 現存最早文物F1.7.1 (1891)。鵝城會館現名惠州會館，現址完工於1983年，不確定是否為Franke書中所記。
+- nanyangSiteId: fm-wf-126
+  FrankeNo: F1.8
+  dateISO: '1889'
+  dateRef: F1.8.5
+  address: 777, Jalan Leftenan Adnan, Taman Sim, 70200 Seremban, Negeri Sembilan,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-127
+  FrankeNo: F1.9
+  dateISO: '1904'
+  dateRef: F1.9.1
+  address: 29-30, 31, Jalan Dato' Abdul Malek, Taman Sim, 70000 Seremban, Negeri Sembilan,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-128
+  FrankeNo: F1.10
+  dateISO: '1936'
+  dateRef: F1.10.1
+  address: 938, Jalan Rasah, Kampung Dato Mansor, 70300 Seremban, Negeri Sembilan,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-129
+  FrankeNo: F2.1
+  dateISO: '1931'
+  dateRef: F2.1 (p463)
+  address: ''
+  notes: 現存最早文物F2.1.1 (1948)。
+- nanyangSiteId: fm-wf-130
+  FrankeNo: F3.1
+  dateISO: '1900'
+  dateRef: F3.1.1
+  address: No. 9, Negeri Sembilan, 72000 Kuala Pilah, Negeri Sembilan, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-131
+  FrankeNo: F3.2
+  dateISO: '1911'
+  dateRef: F3.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-132
+  FrankeNo: F3.3
+  dateISO: '1902'
+  dateRef: F3.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-133
+  FrankeNo: F4.1
+  dateISO: '1902'
+  dateRef: F4.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-134
+  FrankeNo: G1.1
+  dateISO: '1900'
+  dateRef: G1.1 (p477)
+  address: 67, Jalan Bukit Ubi, Taman Sungai Charu, 25200 Kuantan, Pahang, Malaysia
+  notes: 現存最早文物G1.1.1 (1905)。
+- nanyangSiteId: fm-wf-135
+  FrankeNo: G1.2
+  dateISO: '1909'
+  dateRef: G1.2.1
+  address: Jalan Bukit Setongkol, Kampung Jalan Corry, 25200 Kuantan, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-136
+  FrankeNo: G1.3
+  dateISO: '1952'
+  dateRef: G1.3.1
+  address: Kampung Jalan Corry, 25200 Kuantan, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-137
+  FrankeNo: G1.4
+  dateISO: '1911'
+  dateRef: G1.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-138
+  FrankeNo: G2.1
+  dateISO: '1900'
+  dateRef: G2.1.1
+  address: Jalan Bukit Setongkol, Kampung Jalan Corry, 25200 Kuantan, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-139
+  FrankeNo: G2.2
+  dateISO: '1929'
+  dateRef: G2.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-140
+  FrankeNo: G2.3
+  dateISO: '1950'
+  dateRef: G2.3.1
+  address: C136, Kampung Chamang, 28700 Bentong, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-141
+  FrankeNo: G3.1
+  dateISO: '1898'
+  dateRef: G3.1.1
+  address: Jalan Jelai, 27200 Kuala Lipis, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-142
+  FrankeNo: G3.2
+  dateISO: '1933'
+  dateRef: G3.2.1
+  address: Kampung Tanjung Rambai, 27200 Kuala Lipis, Pahang, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-143
+  FrankeNo: G3.3
+  dateISO: '1891'
+  dateRef: G3.3.1
+  address: ''
+  notes: 曾用名K'o-chi hui-kuan客籍會館，1939年改為現名。
+- nanyangSiteId: fm-wf-144
+  FrankeNo: G4.1
+  dateISO: '1946'
+  dateRef: G4.1.1
+  address: Jln Tun Razak, Taman Bendera, 28400 Mentakab, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-145
+  FrankeNo: G4.2
+  dateISO: '1926'
+  dateRef: G4.2.3
+  address: Jalan Mentakab 1, Taman Mentakab, Mentakab, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-146
+  FrankeNo: G5.1
+  dateISO: '1763'
+  dateRef: G5.1.1
+  address: Jalan Haji Montok, Kampung Pancur, 26600 Pekan, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-147
+  FrankeNo: G5.2
+  dateISO: '1851'
+  dateRef: G5.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-148
+  FrankeNo: G5.3
+  dateISO: '1902'
+  dateRef: G5.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-149
+  FrankeNo: G5.4
+  dateISO: '1927'
+  dateRef: G5.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-150
+  FrankeNo: G6.1
+  dateISO: '1910'
+  dateRef: G6.1 (p511)
+  address: Jalan Haji Montok, Kampung Pancur, 26600 Pekan, Pahang, Malaysia
+  notes: 現存最早文物G1.6.1 (1908)。
+- nanyangSiteId: fm-wf-151
+  FrankeNo: G6.2
+  dateISO: '1903'
+  dateRef: G6.2.1
+  address: 27600 Raub, Unnamed Road, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-152
+  FrankeNo: G7.1
+  dateISO: '1956'
+  dateRef: G7.1.1
+  address: Pahang, Temerloh, Kampung Sri Temerluh, 67, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-153
+  FrankeNo: G7.2
+  dateISO: '1956'
+  dateRef: G7.2.1
+  address: Kampung China, 28400 Mentakab, Pahang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-154
+  FrankeNo: H1.1
+  dateISO: '1792'
+  dateRef: H1.1.1
+  address: Tanjung Tokong, 11200 Tanjung Tokong, Penang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-155
+  FrankeNo: H1.2
+  dateISO: '1800'
+  dateRef: H1.2.1
+  address: 30, Jln Masjid Kapitan Keling, George Town, 10200 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-156
+  FrankeNo: H1.3
+  dateISO: '1810'
+  dateRef: H1.3.1
+  address: King Street, George Town, 10450 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-157
+  FrankeNo: H1.4
+  dateISO: '1862'
+  dateRef: H1.4.1
+  address: 74, Jalan Bagan Jermal, 10470 Pulau Pinang, 10470 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-158
+  FrankeNo: H1.5
+  dateISO: '1860'
+  dateRef: H1.5 (p564)
+  address: 10300 George Town, Penang, Malaysia
+  notes: 現存最早文物H1.5.1 (1862/3)。
+- nanyangSiteId: fm-wf-159
+  FrankeNo: H1.6
+  dateISO: '1864'
+  dateRef: H1.6 (p567)
+  address: Jalan Pokok Asam, Jelutong, 11600 Jelutong, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.6.1 (1866)。
+- nanyangSiteId: fm-wf-160
+  FrankeNo: H1.7
+  dateISO: '1832'
+  dateRef: H1.7 (p573)
+  address: 41, Lebuh Muntri, George Town, 10450 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物App. (1871)。
+- nanyangSiteId: fm-wf-161
+  FrankeNo: H1.8
+  dateISO: '1873'
+  dateRef: H1.8.1
+  address: Jalan Sultan Azlan Shah, Bayan Lepas Industrial Park, 11900 Bayan Lepas,
+    Pulau Pinang, Malaysia
+  notes: 曾用名Fu-hsing kung福興宮。
+- nanyangSiteId: fm-wf-162
+  FrankeNo: H1.9
+  dateISO: '1886'
+  dateRef: H1.9 (p585)
+  address: Lorong Love, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.9.1 (1873)。
+- nanyangSiteId: fm-wf-163
+  FrankeNo: H1.10
+  dateISO: '1875'
+  dateRef: H1.10.1
+  address: 212B, Jalan Macalister, 10300 Pulau Pinang, 10450 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-164
+  FrankeNo: H1.11
+  dateISO: '1877'
+  dateRef: H1.11.1
+  address: 228A, Jalan Burma, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-165
+  FrankeNo: H1.12
+  dateISO: '1879'
+  dateRef: H1.12.1
+  address: 77-2-13, Jalan S.P. Chelliah, 10150 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-166
+  FrankeNo: H1.13
+  dateISO: '1880'
+  dateRef: H1.13.1
+  address: 67, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-167
+  FrankeNo: H1.14
+  dateISO: '1881'
+  dateRef: H1.14.1
+  address: Jln TM Bukit Penara, Pulau Pinang, Malaysia
+  notes: 曾用名Ch'ao-yüan miao朝元廟, Ch'ao-yüan tung朝元洞。
+- nanyangSiteId: fm-wf-168
+  FrankeNo: H1.15
+  dateISO: '1883'
+  dateRef: H1.15.1
+  address: 212B, Jalan Macalister, 10300 Pulau Pinang, 10450 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-169
+  FrankeNo: H1.16
+  dateISO: '1888'
+  dateRef: H1.16.1
+  address: 670-A, Jalan Jelutong, Pulau Pinang, 11600 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-170
+  FrankeNo: H1.17
+  dateISO: '1891'
+  dateRef: H1.17 (p626-627)
+  address: Kek Lok Si Temple, Jln Balik Pulau, 11500 Air Itam, Penang, Malaysia
+  notes: 現存最早文物H1.17.1 (1892)。
+- nanyangSiteId: fm-wf-171
+  FrankeNo: H1.18
+  dateISO: '1902'
+  dateRef: H1.18.1
+  address: King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-172
+  FrankeNo: H1.19
+  dateISO: '1869'
+  dateRef: H1.19 (p673)
+  address: Pulau Pinang, George Town, Thean Kong Thnuah, Malaysia
+  notes: 現存最早文物H1.19.1 (1905)。
+- nanyangSiteId: fm-wf-173
+  FrankeNo: H1.20
+  dateISO: '1894'
+  dateRef: H1.20.1
+  address: 70, Jalan Burma, 10500 George Town, Pulau Pinan, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-174
+  FrankeNo: H1.21
+  dateISO: '1938'
+  dateRef: H1.21.1
+  address: 253, Jalan Burma, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-175
+  FrankeNo: H1.22
+  dateISO: '1955'
+  dateRef: H1.22.1
+  address: 57, Lbh Armenian, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-176
+  FrankeNo: H1.23
+  dateISO: 1790s
+  dateRef: H1.23 (p682)
+  address: Hong Seng Estate, 10470 Tanjung Tokong, Penang, Malaysia
+  notes: 曾用名Kuangtung i-chuang。現存最早文物H1.23.1 (1795)。
+- nanyangSiteId: fm-wf-177
+  FrankeNo: H1.24
+  dateISO: '1805'
+  dateRef: H1.24.1
+  address: 2003, Jalan Mount Erskine, Taman Teguh, 10470 George Town, Pulau Pinang,
+    Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-178
+  FrankeNo: H1.25
+  dateISO: '1912'
+  dateRef: H1.25 (p761)
+  address: 8, Lbh Armenian, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.25.1 (1917)。
+- nanyangSiteId: fm-wf-179
+  FrankeNo: H1.26
+  dateISO: '1930'
+  dateRef: H1.26.1
+  address: 18, Cannon Square, George Town, 10450 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-180
+  FrankeNo: H1.27
+  dateISO: '1933'
+  dateRef: H1.27.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-181
+  FrankeNo: H1.28
+  dateISO: '1946'
+  dateRef: H1.28.1
+  address: 500, Jalan Bukit Bendera, 11500 Ayer Itam, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-182
+  FrankeNo: H1.29
+  dateISO: '1803'
+  dateRef: H1.29 (p769-770)
+  address: 24, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 曾用名Jen-ho kung-kuan仁和公館。現存最早文物App. (1803)。
+- nanyangSiteId: fm-wf-183
+  FrankeNo: H1.30
+  dateISO: '1864'
+  dateRef: H1.30 (p772)
+  address: 127, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 曾用名Han-chiang chia-miao韓江家廟。現存最早文物H1.30.1 (1870)。
+- nanyangSiteId: fm-wf-184
+  FrankeNo: H1.31
+  dateISO: 1860s
+  dateRef: H1.31 (p773)
+  address: 93, Lebuh Muntri, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 曾用名T'ien-hou kung天后宮。現存最早文物H1.31.1 (1870)。
+- nanyangSiteId: fm-wf-185
+  FrankeNo: H1.32
+  dateISO: '1886'
+  dateRef: H1.32.1
+  address: 22, Jln Masjid Kapitan Keling, George Town, 10200 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-186
+  FrankeNo: H1.33
+  dateISO: '1831'
+  dateRef: H1.33 (p804)
+  address: 36 & 38, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.33.1 (1888)。
+- nanyangSiteId: fm-wf-187
+  FrankeNo: H1.34
+  dateISO: 1851-61
+  dateRef: H1.34.1
+  address: 407, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-188
+  FrankeNo: H1.35
+  dateISO: '1860'
+  dateRef: H1.35 (p822)
+  address: 463, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.35.1 (1904)。
+- nanyangSiteId: fm-wf-189
+  FrankeNo: H1.36
+  dateISO: '1860'
+  dateRef: H1.36 (p832)
+  address: 30, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.36.1 (1907)。
+- nanyangSiteId: fm-wf-190
+  FrankeNo: H1.37
+  dateISO: '1922'
+  dateRef: H1.37.1
+  address: 18, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-191
+  FrankeNo: H1.38
+  dateISO: 1925-1934
+  dateRef: H1.38 (p834)
+  address: 50, Penang St, Georgetown, 10200 George Town, Penang, Malaysia
+  notes: 現存最早文物H1.38.1 (1940)。
+- nanyangSiteId: fm-wf-192
+  FrankeNo: H1.39
+  dateISO: '1938'
+  dateRef: H1.39.1
+  address: No. 73, Jalan Magazine, 10300 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-193
+  FrankeNo: H1.40
+  dateISO: '1936'
+  dateRef: H1.40 (p840)
+  address: 33, Jalan Anson, 10400 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.40.1 (1949)。
+- nanyangSiteId: fm-wf-194
+  FrankeNo: H1.41
+  dateISO: '1929'
+  dateRef: H1.41.1
+  address: 24, Lebuh Melayu, George Town, 10300 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-195
+  FrankeNo: H1.42
+  dateISO: '1947'
+  dateRef: H1.42 (p845)
+  address: ''
+  notes: 現存最早文物H1.42.1 (1953)。
+- nanyangSiteId: fm-wf-196
+  FrankeNo: H1.43
+  dateISO: '1919'
+  dateRef: H1.43 (p847)
+  address: 120-1, Jln Macalister, 10450 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.43.1 (1961)。
+- nanyangSiteId: fm-wf-197
+  FrankeNo: H1.44
+  dateISO: '1939'
+  dateRef: H1.44 (p854)
+  address: 34, Jalan Burma, 10050 , George Town, Malaysia
+  notes: 現存最早文物H1.44.1 (1962)。
+- nanyangSiteId: fm-wf-198
+  FrankeNo: H1.45
+  dateISO: '1933'
+  dateRef: H1.45 (p855)
+  address: 22, Lebuh Melayu, George Town, 10300 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.45.1 (1963)。
+- nanyangSiteId: fm-wf-199
+  FrankeNo: H1.46
+  dateISO: '1851'
+  dateRef: H1.46.1
+  address: 18, Cannon Square, George Town, 10450 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-200
+  FrankeNo: H1.47
+  dateISO: '1858'
+  dateRef: H1.47.1
+  address: 22, Jalan Pangkor, Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-201
+  FrankeNo: H1.48
+  dateISO: '1864'
+  dateRef: H1.48.1
+  address: 64, Lebuh Noordin, George Town, 10300 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-202
+  FrankeNo: H1.49
+  dateISO: '1877'
+  dateRef: H1.49.1
+  address: 37, Lebuhraya Codrington, George Town, 10350 George Town, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-203
+  FrankeNo: H1.50
+  dateISO: '1878'
+  dateRef: H1.50.1
+  address: 74-52, Lebuh China, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-204
+  FrankeNo: H1.51
+  dateISO: '1896'
+  dateRef: H1.51.1
+  address: 40, King Street, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-205
+  FrankeNo: H1.52
+  dateISO: '1842'
+  dateRef: H1.52 (p893)
+  address: 31, Penang St, Georgetown, 10200 George Town, Penang, Malaysia
+  notes: 現存最早文物H1.52.1 (1896)。
+- nanyangSiteId: fm-wf-206
+  FrankeNo: H1.53
+  dateISO: '1886'
+  dateRef: H1.53.1
+  address: 407, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-207
+  FrankeNo: H1.54
+  dateISO: 1844 (p903)
+  dateRef: H1.54.1
+  address: 3, Lbh Chulia, Ghaut, 10200 George Town, Pulau Pinang, Malaysia
+  notes: 曾用名Ying-yüan kung應元宮。
+- nanyangSiteId: fm-wf-208
+  FrankeNo: H1.55
+  dateISO: '1895'
+  dateRef: H1.55（p905)
+  address: No. 10400, 436, Jln Penang, 10000 George Town, Pulau Pinang, Malaysia
+  notes: 現存最早文物H1.55.1 (1902)。
+- nanyangSiteId: fm-wf-209
+  FrankeNo: H1.56
+  dateISO: '1924'
+  dateRef: H1.56.1
+  address: 71, Lbh Armenian, George Town, 10450 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-210
+  FrankeNo: H1.57
+  dateISO: '1928'
+  dateRef: H1.57.1, H1.57.2
+  address: 36, Jalan Burma, George Town, 10050 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-211
+  FrankeNo: H1.58
+  dateISO: '1939'
+  dateRef: H1.58.1
+  address: 45, Jalan Westlands, George Town, 10400 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-212
+  FrankeNo: H1.59
+  dateISO: '1956'
+  dateRef: H1.59.1
+  address: 34, Jalan Logan, George Town, 10400 George Town, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-213
+  FrankeNo: H1.60
+  dateISO: '1918'
+  dateRef: H1.60.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-214
+  FrankeNo: H1.61
+  dateISO: '1919'
+  dateRef: H1.61.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-215
+  FrankeNo: H1.62
+  dateISO: '1904'
+  dateRef: H1.62 (p923)
+  address: 2, Persiaran Tembaga, Taman Guan Joo Seng, 11600 Jelutong, Pulau Pinang,
+    Malaysia
+  notes: 現存最早文物H1.62.1 (1920)。
+- nanyangSiteId: fm-wf-216
+  FrankeNo: H1.63
+  dateISO: '1947'
+  dateRef: H1.63.1
+  address: Lrg Kg Baru, 11400 Ayer Itam, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-217
+  FrankeNo: H1.64
+  dateISO: '1950'
+  dateRef: H1.64.1
+  address: 731, Jalan Sungai Dua, 11700 Bayan Lepas, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-218
+  FrankeNo: H2.1
+  dateISO: '1879'
+  dateRef: H2.1.1
+  address: Jalan Pasar, 14000 Bukit Mertajam, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-219
+  FrankeNo: H2.2
+  dateISO: '1893'
+  dateRef: H2.2.1
+  address: 2063, MK, 9, Lorong Gasing 2, Taman Berapit, 14000 Bukit Mertajam, Penang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-220
+  FrankeNo: H2.3
+  dateISO: '1931'
+  dateRef: H2.3.1
+  address: 109, Jalan Datuk Ooh Chooi Cheng, 14000 Bukit Mertajam, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-221
+  FrankeNo: H3.1
+  dateISO: '1874'
+  dateRef: H3.1.1
+  address: 2227, 14, Jalan Raja Uda, Telok Air Tawar, 12300 Butterworth, Pulau Pinang,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-222
+  FrankeNo: H3.2
+  dateISO: '1887'
+  dateRef: H3.2.1
+  address: 25, Bandar Perai Permatang Pauh,13500 Pulau Pinang, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-223
+  FrankeNo: H3.3
+  dateISO: '1888'
+  dateRef: H3.3.1
+  address: Jalan Pantai Bersih, 13000 Butterworth, Pulau Pinang, Malaysia
+  notes: 曾用名Fu-ho she福和社, Tze-lung-yeh kung子龍爺宮。
+- nanyangSiteId: fm-wf-224
+  FrankeNo: H3.4
+  dateISO: '1954'
+  dateRef: H3.4.1
+  address: Kampung Bagan Jermal, 12300 Butterworth, Penang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-225
+  FrankeNo: H3.5
+  dateISO: '1921'
+  dateRef: H3.5 (p949)
+  address: 1864, Jalan Bukit Kecil, 14000 Bukit Mertajam, Penang, Malaysia
+  notes: 現存最早文物H3.5.1 (1935)。
+- nanyangSiteId: fm-wf-226
+  FrankeNo: H4.1
+  dateISO: '1866'
+  dateRef: H4.1.1
+  address: Jalan Teluk Ipil, 14300 Nibong Tebal, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-227
+  FrankeNo: H5.1
+  dateISO: 1870s/1880s
+  dateRef: H5.1 (p961)
+  address: ''
+  notes: 現存最早文物H5.5.1 (1882)。
+- nanyangSiteId: fm-wf-228
+  FrankeNo: I1.1
+  dateISO: 1890/91
+  dateRef: I1.1.1
+  address: 3, Jalan Sultan Idris Shah, Kampong Jawa, 30000 Ipoh, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-229
+  FrankeNo: I1.2
+  dateISO: '1894'
+  dateRef: I1.2.1
+  address: 89-91, Jalan Bijeh Timah, 30000 Ipoh, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-230
+  FrankeNo: I1.3
+  dateISO: '1898'
+  dateRef: I1.3.1
+  address: Jalan Gopeng, 31610 Kampung Kepayang, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-231
+  FrankeNo: I1.4
+  dateISO: '1910'
+  dateRef: I1.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-232
+  FrankeNo: I1.5
+  dateISO: 02/01/1900
+  dateRef: I1.5 (p981)
+  address: Third Floor, Perak Kaying Building, 114, Jln Sultan Yussof, 30000 Ipoh,
+    Perak, Malaysia
+  notes: 現存最早文物I1.5.1 (1902)。
+- nanyangSiteId: fm-wf-233
+  FrankeNo: I1.6
+  dateISO: '1953'
+  dateRef: I1.6.1
+  address: No. 73 & 75, Jalan Theatre, Taman Jubilee, 30300 Ipoh, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-234
+  FrankeNo: I1.7
+  dateISO: '1954'
+  dateRef: I1.7.1
+  address: First Floor, 34, Jalan Leong Sin Nam, Kampung Jawa, 30300 Ipoh, Perak,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-235
+  FrankeNo: I2.1
+  dateISO: '1893'
+  dateRef: I2.1.1
+  address: Jalan Besar, Kampung Alor Senggut, 34300 Bagan Serai, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-236
+  FrankeNo: I3.1
+  dateISO: 05/01/1904
+  dateRef: I3.1.1, I3.1.2, I3.1.3, I3.1.4, I3.1.5, I3.1.6
+  address: 102, Jln Gopeng, Kampung Masjid, 31900 Kampar, Perak, Malaysia
+  notes: 曾用名Shuei-yüeh kung水月宮。
+- nanyangSiteId: fm-wf-237
+  FrankeNo: I3.2
+  dateISO: '1934'
+  dateRef: I3.2 (p994)
+  address: 176A-178A, Jalan Gopeng, 31900 Kampar, Perak, Malaysia
+  notes: 現存最早文物I3.2.1 (1938)。
+- nanyangSiteId: fm-wf-238
+  FrankeNo: I4.1
+  dateISO: '1914'
+  dateRef: I4.1.1
+  address: 37A, Jalan Taiping, 33000 Kuala Kangsar, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-239
+  FrankeNo: I4.2
+  dateISO: '1897'
+  dateRef: I4.2.1
+  address: Jalan Kuala Dipang, 31900 Malim Nawar, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-240
+  FrankeNo: I5.1
+  dateISO: '1893'
+  dateRef: I5.1.1, I5.1.2, I5.1.3
+  address: Jalan Titi Kertang, Kampung Pekan Matang, 34750 Matang, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-241
+  FrankeNo: I6.1
+  dateISO: ''
+  dateRef: ''
+  address: Sungai Pinang Kecil, 32300 Pangkor Island, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-242
+  FrankeNo: I6.2
+  dateISO: '1880'
+  dateRef: I6.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-243
+  FrankeNo: I7.1
+  dateISO: '1911'
+  dateRef: I7.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-244
+  FrankeNo: I8.1
+  dateISO: '1907'
+  dateRef: I8.1.1
+  address: 32000 Seri Manjung, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-245
+  FrankeNo: I9.1
+  dateISO: 1925/26
+  dateRef: I9.1.1
+  address: Jln Besar, Kampung Tersusun Keledang Utama, 31100 Sungai Siput, Perak,
+    Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-246
+  FrankeNo: I10.1
+  dateISO: 1882/83
+  dateRef: I10.1.1
+  address: Kampung Jana Baharu, 34600 Kamunting, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-247
+  FrankeNo: I10.2
+  dateISO: '1883'
+  dateRef: I10.2.1
+  address: 1879, Jalan Taming Sari, Taman Tasik Taiping, 34000 Taiping, Perak, Malaysia
+  notes: 建立早於I10.1，但並無文物證明 (p1029)。
+- nanyangSiteId: fm-wf-248
+  FrankeNo: I10.3
+  dateISO: '1885'
+  dateRef: I10.3.1
+  address: Kampung Bengali, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-249
+  FrankeNo: I10.4
+  dateISO: '1887'
+  dateRef: I10.4.1
+  address: Jalan Tokong, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-250
+  FrankeNo: I10.5
+  dateISO: '1889'
+  dateRef: I10.5.2
+  address: Kampung Bengali, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-251
+  FrankeNo: I10.6
+  dateISO: 1895/96
+  dateRef: I10.6.1
+  address: Jalan Merdeka, Taman Tupai Mas, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-252
+  FrankeNo: I10.7
+  dateISO: '1898'
+  dateRef: I10.7.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-253
+  FrankeNo: I10.8
+  dateISO: '1899'
+  dateRef: I10.8.1
+  address: Lot 386, Jalan Kamunting Lama, Taman Bukit Emas, 34000 Taiping, Perak,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-254
+  FrankeNo: I10.9
+  dateISO: '1904'
+  dateRef: I10.9.1
+  address: 256A, Jalan Kota, Kampung Jambu, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-255
+  FrankeNo: I10.10
+  dateISO: '1906'
+  dateRef: I10.10.1
+  address: Jln Datuk Seri Kamaruddin, Kampung Bengali, 34000 Taiping, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-256
+  FrankeNo: I10.11
+  dateISO: '1864'
+  dateRef: I10.11.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-257
+  FrankeNo: I10.12
+  dateISO: '1869'
+  dateRef: I10.12.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-258
+  FrankeNo: I10.13
+  dateISO: '1875'
+  dateRef: I10.13.1
+  address: RQJ4+62, 34000 Taiping, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-259
+  FrankeNo: I10.14
+  dateISO: '1894'
+  dateRef: I10.14.1
+  address: Jalan Saw Ah Choy, Taman Tupai Mas, 34000 Taiping, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-260
+  FrankeNo: I10.15
+  dateISO: '1948'
+  dateRef: I10.15.1
+  address: 5, Lorong Tanjong, 34000 Taiping, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-261
+  FrankeNo: I10.16
+  dateISO: '1881'
+  dateRef: I10.16.1
+  address: 16, Jalan Maharajalela, 34000 Taiping, Perak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-262
+  FrankeNo: I10.17
+  dateISO: '1887'
+  dateRef: I10.17.1
+  address: Jalan Pasar, 34000 Taiping, Perak, Malaysia
+  notes: 現存最早文物I10.17.1 (1887)。
+- nanyangSiteId: fm-wf-263
+  FrankeNo: I10.18
+  dateISO: '1887'
+  dateRef: I10.18.1
+  address: 13, Jalan Tokong, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-264
+  FrankeNo: I10.19
+  dateISO: 1895/96
+  dateRef: I10.19.1
+  address: 36, Jalan Kota, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-265
+  FrankeNo: I10.20
+  dateISO: '1909'
+  dateRef: I10.20.1
+  address: 22, Jalan Pasar, 34000 Taiping, Perak, Malaysia
+  notes: 現存最早文物I.20.1 (1909)。
+- nanyangSiteId: fm-wf-266
+  FrankeNo: I10.21
+  dateISO: '1923'
+  dateRef: I10.21.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-267
+  FrankeNo: I10.22
+  dateISO: '1931'
+  dateRef: I10.22.1
+  address: 290, Jalan Kota, Kampung Jambu, 34000 Taiping, Perak, Malaysia
+  notes: 曾用名Fu-chien kung-ssu福建公司。
+- nanyangSiteId: fm-wf-268
+  FrankeNo: I10.23
+  dateISO: 1880s
+  dateRef: I10.23 (p1082)
+  address: No. 42, Jalan Maharajalela, 34000 Taiping, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-269
+  FrankeNo: I10.24
+  dateISO: 1898/1899
+  dateRef: I10.24 (p1085)
+  address: No. 222, 2nd Floor, Jalan Chung Thye Phin, Perak, 34000 Taiping, Malaysia
+  notes: 現存最早文物I10.24.1 (1958)。
+- nanyangSiteId: fm-wf-270
+  FrankeNo: I11.1
+  dateISO: '1926'
+  dateRef: I11.1.1
+  address: Lot 22567, Jalan Tambun, Tambun, 31400 Ipoh, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-271
+  FrankeNo: I12.1
+  dateISO: '1883'
+  dateRef: I12.1 (p1087)
+  address: Jalan Pasar, Pekan Teluk Intan, 36000 Teluk Intan, Perak, Malaysia
+  notes: 現存最早文物I12.1.1 (1888)。
+- nanyangSiteId: fm-wf-272
+  FrankeNo: I12.2
+  dateISO: '1889'
+  dateRef: I12.2 (p1090)
+  address: B43, Jalan Ah Cheong, Pekan Teluk Intan, 36000 Teluk Intan, Perak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-273
+  FrankeNo: J1.1
+  dateISO: '1895'
+  dateRef: J1.1.1
+  address: Jalan Indera Kayangan, Pusat Bandar Kangar, 01000 Kangar, Perlis, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-274
+  FrankeNo: J1.2
+  dateISO: '1868'
+  dateRef: J1.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-275
+  FrankeNo: J1.3
+  dateISO: '1962'
+  dateRef: J1.3.1
+  address: Pusat Bandar Kangar, 01000 , Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-276
+  FrankeNo: J1.4
+  dateISO: '1951'
+  dateRef: J1.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-277
+  FrankeNo: J1.5
+  dateISO: '1923'
+  dateRef: J1.5.1
+  address: 6, Jalan Seri Satu, Taman Perlis, 01000 Kangar, Perlis, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-278
+  FrankeNo: K1.1
+  dateISO: '1892'
+  dateRef: K1.1.1
+  address: 30, Jalan Raya Barat, Selangor Darul Ehsan, 41000 Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-279
+  FrankeNo: K1.2
+  dateISO: '1922'
+  dateRef: K1.2.1
+  address: Kampung Kastam, 42000 Port Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-280
+  FrankeNo: K1.3
+  dateISO: '1918'
+  dateRef: K1.3 (p1107)
+  address: 24, Jalan Kapar, 41400 Klang, Selangor Darul Ehsan, Jalan Kapar, 41400
+    Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-281
+  FrankeNo: K1.4
+  dateISO: '1955'
+  dateRef: K1.4.1
+  address: Lot 3115 & 3116, Jalan Siakap, Jln Tepi Sungai, Taman Teluk Pulai, 41100
+    Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-282
+  FrankeNo: K1.5
+  dateISO: '1884'
+  dateRef: K1.5.1
+  address: Jalan Kenangan, Meru, 41050 Klang, Selangor, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-283
+  FrankeNo: K1.6
+  dateISO: '1927'
+  dateRef: K1.6 (01114)
+  address: 3216, Jalan Batu Tiga Lama, Kawasan 16, 41300 Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-284
+  FrankeNo: K1.7
+  dateISO: '1914'
+  dateRef: K1.7.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-285
+  FrankeNo: K1.8
+  dateISO: '1947'
+  dateRef: K1.8.1, K1.8.2
+  address: No.50 , Jalan Raya Barat/KS1,, Pusat Bandar, 41000 Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-286
+  FrankeNo: K1.9
+  dateISO: '1938'
+  dateRef: K1.9 (p1119)
+  address: 66, Jalan Batu Unjur 1, Taman Bayu Perdana, 41200 Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-287
+  FrankeNo: K1.10
+  dateISO: '1950'
+  dateRef: K1.10.1
+  address: Jalan Raya Timur, Kawasan 1, 41000 Klang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-288
+  FrankeNo: K1.11
+  dateISO: '1946'
+  dateRef: K1.11 (p1121)
+  address: 114, Persiaran Raja Muda Musa, Taman Sri Pesona, 41100 Klang, Selangor,
+    Malaysia
+  notes: 曾用名Hui-an pieh-shu別墅，Hui-an t'ung-hsiang-hui同鄉會。
+- nanyangSiteId: fm-wf-289
+  FrankeNo: K1.12
+  dateISO: '1916'
+  dateRef: K1.12 (p1122)
+  address: Jalan Tengku Diaudin, Kawasan 1, 41000 Klang, Selangor, Malaysia
+  notes: 疑似。現存最早文物K1.12.1 (1953)。
+- nanyangSiteId: fm-wf-290
+  FrankeNo: K1.13
+  dateISO: '1911'
+  dateRef: K1.13 (p1123)
+  address: No 129, Jalan Kota Raja, Kawasan 1, 41000 Klang, Selangor, Malaysia
+  notes: 現存最早文物K1.13.1 (1938)。
+- nanyangSiteId: fm-wf-291
+  FrankeNo: K2.1
+  dateISO: '1898'
+  dateRef: K2.1.1, K2.1.2
+  address: 24, Jalan Mendaling, Bandar Kajang, 43000 Kajang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-292
+  FrankeNo: K3.1
+  dateISO: '1888'
+  dateRef: K3.1.1
+  address: 30, Jalan Sultan Ibrahim, Kuala Selangor, 45000 Kuala Selangor, Selangor,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-293
+  FrankeNo: K3.2
+  dateISO: 1889？
+  dateRef: K3.2.1
+  address: 6, Temple, Jalan Besar, Pasir Penambang, 45000 Kuala Selangor, Selangor,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-294
+  FrankeNo: K3.3
+  dateISO: '1907'
+  dateRef: K3.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-295
+  FrankeNo: K4.1
+  dateISO: '1869'
+  dateRef: K4.1.1
+  address: 32, Lorong Tokong Cina, Pusat Bandar Rawang, 48000 Rawang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-296
+  FrankeNo: K4.2
+  dateISO: '1908'
+  dateRef: K4.2.1, K4.2.2
+  address: 24, Jalan Rawang Garden, Kampung Rajah, 48000 Rawang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-297
+  FrankeNo: K4.3
+  dateISO: '1962'
+  dateRef: K4.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-298
+  FrankeNo: K4.4
+  dateISO: 1914/1915
+  dateRef: K4.4.1
+  address: Kawasan Industri Rawang Perdana, 48000 Rawang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-299
+  FrankeNo: K5.1
+  dateISO: '1894'
+  dateRef: K5.1.1
+  address: No 88 (Lot 43, Pekan Semenyih, 43500 Semenyih, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-300
+  FrankeNo: K5.2
+  dateISO: '1904'
+  dateRef: K5.2.1
+  address: Ladang Sydney, Opposite, Taman Semenyih Idaman, 43500 Semenyih, Selangor,
+    Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-301
+  FrankeNo: K5.3
+  dateISO: '1917'
+  dateRef: K5.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-302
+  FrankeNo: K6.1
+  dateISO: '1961'
+  dateRef: K6.1.1
+  address: 16, Jalan Reko, Taman Sahabat, 43000 Kajang, Selangor, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-303
+  FrankeNo: K6.2
+  dateISO: '1937'
+  dateRef: K6.2.1
+  address: 3, Jalan Timur, Bandar Kajang, 43000 Kajang, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-304
+  FrankeNo: K7.1
+  dateISO: '1922'
+  dateRef: K7.1.2
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-305
+  FrankeNo: K8.1
+  dateISO: '1895'
+  dateRef: K8.1 (p1153)
+  address: Jalan Kubu, Kampung Sungai Damar, 44000 Kuala Kubu Baru, Selangor, Malaysia
+  notes: 現存最早文物K8.1.1 (1891)。
+- nanyangSiteId: fm-wf-306
+  FrankeNo: K8.2
+  dateISO: '1904'
+  dateRef: K8.2.1
+  address: Kg Baru Asam Kumbang KKB,, 44000 Kuala Kubu Baru, Selangor, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-307
+  FrankeNo: K8.3
+  dateISO: '1922'
+  dateRef: K8.3.2
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-308
+  FrankeNo: L1.1
+  dateISO: '1801'
+  dateRef: L1.1.1
+  address: 153a, Jalan Kampung Cina, Kampung Banggul, 20100 Kuala Terengganu, Terengganu,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-309
+  FrankeNo: L1.2
+  dateISO: '1926'
+  dateRef: L1.2.1
+  address: T101, Kampung Tiruk, 21070 Kuala Terengganu, Terengganu, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-310
+  FrankeNo: L1.3
+  dateISO: '1947'
+  dateRef: L1.3.1
+  address: Jalan Batu Maung, Bayan Lepas, Pulau Pinang, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-311
+  FrankeNo: L1.4
+  dateISO: '1813'
+  dateRef: L1.4.1
+  address: 20400 Kuala Terengganu, Terengganu, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-312
+  FrankeNo: L1.5
+  dateISO: '1946'
+  dateRef: L1.5.1
+  address: Jalan Pusara, Taman Pusara, 20400 Kuala Terengganu, Terengganu, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-313
+  FrankeNo: L1.6
+  dateISO: '1860'
+  dateRef: L1.6 (p1173)
+  address: 6, Jalan Kota, Kampung Panglima, 20000 Kuala Terengganu, Terengganu, Malaysia
+  notes: 現存最早文物L1.6.1 (1951)
+- nanyangSiteId: fm-wf-314
+  FrankeNo: L1.7
+  dateISO: '1958'
+  dateRef: L1.7.1
+  address: 104-A & B, Tingkat 2 & 3, Jalan Sultan Ismail, 20200 Kuala Terengganu,
+    Terengganu, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-315
+  FrankeNo: L1.8
+  dateISO: '1778'
+  dateRef: L1.8.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-316
+  FrankeNo: L2.1
+  dateISO: '1906'
+  dateRef: L2.1.1, L2.1.2
+  address: Jalan Balik Bukit, 20300 Kuala Terengganu, Terengganu, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-317
+  FrankeNo: L2.2
+  dateISO: '1941'
+  dateRef: L2.2.1
+  address: SRJK(C) Lok Khoon Ayer Jernih, Kemasek, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-318
+  FrankeNo: M1.1
+  dateISO: '1939'
+  dateRef: M1.1.1
+  address: Jalan Putatan LH Ind, CTR Putatan, 88200 Kota Kinabalu, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-319
+  FrankeNo: M1.2
+  dateISO: '1914'
+  dateRef: M1.2.1
+  address: Jalan Keramat, 88400 Kota Kinabalu, Sabah, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-320
+  FrankeNo: M1.3
+  dateISO: 1945/46
+  dateRef: M1.3.1
+  address: No.1, Jalan Bandaran, 88675, Kota Kinabalu, Sabah, 88675, Kota Kinabalu,
+    Sabah, 88000, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-321
+  FrankeNo: M2.1
+  dateISO: '1957'
+  dateRef: M2.1.1
+  address: Kampung Tuarid Taud, 89000 Keningau, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-322
+  FrankeNo: M3.1
+  dateISO: '1957'
+  dateRef: M3.1.1
+  address: 89050 Kudat, Sabah, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-323
+  FrankeNo: M3.2
+  dateISO: '1883'
+  dateRef: M3.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-324
+  FrankeNo: M3.3
+  dateISO: '1963'
+  dateRef: M3.3.1
+  address: Jln Ibrahim Arshad, 89050 Kudat, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-325
+  FrankeNo: M4.1
+  dateISO: '1852'
+  dateRef: M4.1.1, M4.1.2, M4.1.3
+  address: Bandar Labuan, 87000 Labuan, Labuan Federal Territory, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-326
+  FrankeNo: M4.2
+  dateISO: '1893'
+  dateRef: M4.2.1
+  address: Lorong Sungai Keling 61, 87000 Labuan, Labuan Federal Territory, Malaysia
+  notes: M4.2.2上稱“廣澤尊王”，此處之“遵”不知是否為輸入之誤。
+- nanyangSiteId: fm-wf-327
+  FrankeNo: M4.3
+  dateISO: '1860'
+  dateRef: M4.3.1, M4.3.2
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-328
+  FrankeNo: M4.4
+  dateISO: '1863'
+  dateRef: M4.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-329
+  FrankeNo: M4.5
+  dateISO: '1890'
+  dateRef: M4.5 (p1218)
+  address: Jalan Bunga Melor, Bandar Labuan, 87000 Labuan, Wilayah Persekutuan Labuan,
+    Malaysia
+  notes: 現存最早文物M4.5.1 (1958)。
+- nanyangSiteId: fm-wf-330
+  FrankeNo: M5.1
+  dateISO: '1904'
+  dateRef: M5.1.1
+  address: Jalan Dahlia, Bandar Lahad Datu, 91100 Lahad Datu, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-331
+  FrankeNo: M5.2
+  dateISO: '1918'
+  dateRef: M5.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-332
+  FrankeNo: M6.1
+  dateISO: '1937'
+  dateRef: M6.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-333
+  FrankeNo: M7.1
+  dateISO: '1920'
+  dateRef: M7.1.1
+  address: W49X+6J Donggongon, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-334
+  FrankeNo: M8.1
+  dateISO: '1887'
+  dateRef: M8.1.1, M8.1.2, M8.1.3, M8.1.4, M8.1.5
+  address: Jln Singapura, Pusat Bandar Sandakan, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-335
+  FrankeNo: M8.2
+  dateISO: '1891'
+  dateRef: M8.2.1
+  address: Pusat Bandar Sandakan, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-336
+  FrankeNo: M8.3
+  dateISO: '1894'
+  dateRef: M8.3.1
+  address: Jalan Chi Hwa, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-337
+  FrankeNo: M8.4
+  dateISO: '1909'
+  dateRef: M8.4.1
+  address: KAMPUNG PUKAT, JAMBATAN EMPAT, PINTU 2, Jalan Leila, 90000 Sandakan, Sabah,
+    Malaysia
+  notes: 疑似，名中“司”疑为“祠”之误。
+- nanyangSiteId: fm-wf-338
+  FrankeNo: M8.5
+  dateISO: '1922'
+  dateRef: M8.5.1
+  address: R3HM+R7, Pusat Bandar Sandakan, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-339
+  FrankeNo: M8.6
+  dateISO: '1891'
+  dateRef: M8.6.1, M8.6.2
+  address: Jalan Cecily, 90000 Sandakan, Sabah, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-340
+  FrankeNo: M8.7
+  dateISO: 1946/？
+  dateRef: M8.7.1
+  address: Jalan Chinese Cemetery, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-341
+  FrankeNo: M8.8
+  dateISO: '1922'
+  dateRef: M8.8.1, M8.8.2
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-342
+  FrankeNo: M8.9
+  dateISO: '1958'
+  dateRef: M8.9.1
+  address: Lor Grandview 3A, 90000 Sandakan, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-343
+  FrankeNo: M9.1
+  dateISO: 1949/50
+  dateRef: M9.1.1
+  address: Jalan Dunlop, Bandar Tawau, 91000 Tawau, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-344
+  FrankeNo: M9.2
+  dateISO: '1952'
+  dateRef: M9.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-345
+  FrankeNo: M9.3
+  dateISO: '1912'
+  dateRef: M9.3.1
+  address: 7V7F+CX Taman Guan Soon, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-346
+  FrankeNo: M10.1
+  dateISO: '1951'
+  dateRef: M10.1.1
+  address: Jalan Tenom Kemabong, 89900 Tenom, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-347
+  FrankeNo: M10.2
+  dateISO: '1953'
+  dateRef: M10.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-348
+  FrankeNo: M10.3
+  dateISO: '1913'
+  dateRef: M10.3.1
+  address: 4XQ3+PC Kampung Mansalima, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-349
+  FrankeNo: M11.1
+  dateISO: '1918'
+  dateRef: M11.1.1
+  address: Jalan Papar - Beaufort, Pekan Bongawan, 89709 Bongawan, Sabah, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-350
+  FrankeNo: M12.1
+  dateISO: '1962'
+  dateRef: M12.1.1
+  address: Jalan Causeway, Taman Bandar Semporna, 91308 Semporna, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-351
+  FrankeNo: M12.2
+  dateISO: '1925'
+  dateRef: M12.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-352
+  FrankeNo: M12.3
+  dateISO: '1939'
+  dateRef: M12.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-353
+  FrankeNo: M12.4
+  dateISO: '1944'
+  dateRef: M12.4.2
+  address: SA51, Pekan Semporna, 91308 Semporna, Sabah, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-354
+  FrankeNo: N1.1
+  dateISO: '1856'
+  dateRef: N1.1.1
+  address: Jalan Tunku Abdul Rahman, 93100 Kuching, Sarawak, Malaysia
+  notes: 建於19世紀中葉 (p1280)。
+- nanyangSiteId: fm-wf-355
+  FrankeNo: N1.2
+  dateISO: '1873'
+  dateRef: N1.2.1
+  address: H84X+X4, Kuching, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-356
+  FrankeNo: N1.3
+  dateISO: '1863'
+  dateRef: N1.3.2
+  address: 22, Carpenter St, 93000 Kuching, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-357
+  FrankeNo: N1.4
+  dateISO: '1902'
+  dateRef: N1.4.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-358
+  FrankeNo: N1.5
+  dateISO: '1902'
+  dateRef: N1.5.1
+  address: 68 B, Jalan Tabuan, Gan Swee Cho Garden, 93100 Kuching, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-359
+  FrankeNo: N1.6
+  dateISO: '1855'
+  dateRef: N1.6.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-360
+  FrankeNo: N1.7
+  dateISO: '1876'
+  dateRef: N1.7.1
+  address: F879+C7, Kuching, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-361
+  FrankeNo: N1.8
+  dateISO: '1884'
+  dateRef: N1.8.1
+  address: F853+HX, Kuching, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-362
+  FrankeNo: N1.9
+  dateISO: '1937'
+  dateRef: N1.9.1
+  address: 98CC+7Q, Kuching, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-363
+  FrankeNo: N1.10
+  dateISO: '1885'
+  dateRef: N1.10.1
+  address: 40, First Floor, Carpenter St, Main Bazaar, 93000 Kuching, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-364
+  FrankeNo: N1.11
+  dateISO: '1916'
+  dateRef: N1.11.1
+  address: Lot 116-118, No. 80,82 & 84, Jalan Ang Cheng Ho, 93100 Kuching, Sarawak,
+    Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-365
+  FrankeNo: N2.1
+  dateISO: '1894'
+  dateRef: N2.1.1, N2.1.2, N2.1.3
+  address: C582+8W, Bau, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-366
+  FrankeNo: N2.2
+  dateISO: 1890s
+  dateRef: N2.2 (p1323)
+  address: C46X+4H, Bau, Malaysia
+  notes: 現存最早文物N2.2.1 (1902)。
+- nanyangSiteId: fm-wf-367
+  FrankeNo: N2.3
+  dateISO: '1896'
+  dateRef: N2.3.1, N2.3.2
+  address: C48X+6Q, Bau, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-368
+  FrankeNo: N2.4
+  dateISO: '1883'
+  dateRef: N2.4
+  address: C592+65, Bau, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-369
+  FrankeNo: N3.1
+  dateISO: '1912'
+  dateRef: N3.1.1
+  address: 52CR+6Q Shahida Commercial Centre, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-370
+  FrankeNo: N3.2
+  dateISO: '1867'
+  dateRef: N3.2.1
+  address: 53Q4+7R Kampung Baru Bintulu, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-371
+  FrankeNo: N4.1
+  dateISO: '1917'
+  dateRef: N4.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-372
+  FrankeNo: N5.1
+  dateISO: '1899'
+  dateRef: N5.1.1
+  address: 6PJJ2W8Q+QC, Kapit, Sarawak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-373
+  FrankeNo: N5.2
+  dateISO: '1898'
+  dateRef: N5.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-374
+  FrankeNo: N6.1
+  dateISO: '1926'
+  dateRef: N6.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-375
+  FrankeNo: N7.1
+  dateISO: '1897'
+  dateRef: N7.1.1
+  address: Pekan Limbang, 98700 Limbang, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-376
+  FrankeNo: N7.2
+  dateISO: '1934'
+  dateRef: N7.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-377
+  FrankeNo: N8.1
+  dateISO: '1891'
+  dateRef: N8.1.1
+  address: 58HC+3F Baram, Marudi, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-378
+  FrankeNo: N8.2
+  dateISO: '1895'
+  dateRef: N8.2.1
+  address: 58JF+7V Baram, Marudi, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-379
+  FrankeNo: N8.3
+  dateISO: '1949'
+  dateRef: N8.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-380
+  FrankeNo: N9.1
+  dateISO: '1915'
+  dateRef: N9.1.1
+  address: 9X5Q+9M Taman Wah Shin, Miri, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-381
+  FrankeNo: N9.2
+  dateISO: 1946？
+  dateRef: N9.2.1
+  address: 9XPP+33 Miri Handicraft Centre, Miri, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-382
+  FrankeNo: N9.3
+  dateISO: '1950'
+  dateRef: N9.3.1
+  address: L2 , Centre Point Miri , Jalan Melayu , 98000 Miri , Sarawak, 98000, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-383
+  FrankeNo: N9.4
+  dateISO: '1951'
+  dateRef: N9.4.1
+  address: C2F3+3Q3 Valencia Park, Miri, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-384
+  FrankeNo: N9.5
+  dateISO: '1951'
+  dateRef: N9.5.1
+  address: C2C3+GW Valencia Park, Miri, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-385
+  FrankeNo: N10.1
+  dateISO: '1902'
+  dateRef: N10.1 (p1344)
+  address: 17, Jalan Kampung Muara Tebas, Sungai Buda Kecil, 93010 Kuching, Sarawak,
+    Malaysia
+  notes: 現存最早文物N10.1.1 (1902/03)。
+- nanyangSiteId: fm-wf-386
+  FrankeNo: N11.1
+  dateISO: '1897'
+  dateRef: N11.1.1
+  address: Jln Temple, 96000 Sibu, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-387
+  FrankeNo: N11.2
+  dateISO: '1904'
+  dateRef: N11.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-388
+  FrankeNo: N11.3
+  dateISO: '1910'
+  dateRef: N11.3.1
+  address: 9R4M+F4 Pekan Sibu, Sibu, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-389
+  FrankeNo: N12.1
+  dateISO: '1862'
+  dateRef: N12.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-390
+  FrankeNo: N13.1
+  dateISO: 1850s
+  dateRef: N13.1 (p1361)
+  address: Jalan Siniawan, Siniawan, 94000 Bau, Sarawak, Malaysia
+  notes: 現存最早文物N13.1.1 (1886)。疑似。
+- nanyangSiteId: fm-wf-391
+  FrankeNo: N13.2
+  dateISO: '1901'
+  dateRef: N13.2.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-392
+  FrankeNo: N13.3
+  dateISO: '1924'
+  dateRef: N13.3.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-393
+  FrankeNo: N14.1
+  dateISO: '1922'
+  dateRef: N14.1.1
+  address: ''
+  notes: ''
+- nanyangSiteId: fm-wf-394
+  FrankeNo: N15.1
+  dateISO: '1894'
+  dateRef: N15.1.1
+  address: 3, Jalan Batu Kawa Bazaar, Batu Kawa, 93250 Kuching, Sarawak, Malaysia
+  notes: ''
+- nanyangSiteId: fm-wf-395
+  FrankeNo: N15.2
+  dateISO: '1894'
+  dateRef: N15.2.1
+  address: 26, Jalan Batu Kawa Bazaar, Batu Kawa, 93250 Kuching, Sarawak, Malaysia
+  notes: 疑似。
+- nanyangSiteId: fm-wf-396
+  FrankeNo: N16.1
+  dateISO: '1974'
+  dateRef: N16.1 (p1380)
+  address: ''
+  notes: 現存最早文物N16.1.1 (1937)。
+- nanyangSiteId: fm-wf-397
+  FrankeNo: N16.2
+  dateISO: '1894'
+  dateRef: N16.2.1
+  address: ''
+  notes: ''
